@@ -12,8 +12,15 @@ squares.forEach((squares) => {
   // and for each one we add a 'click' listener
   squares.addEventListener('mouseover', () => {
     squares.classList.remove('squares');
+    squares.classList.remove('squares-white')
     squares.classList.add('squares-black');
   });
+
+  squares.addEventListener('click', () => {
+    squares.classList.remove('squares');
+    squares.classList.add('squares-white');
+  });
+
 });
 
 function refreshPage() {

@@ -47,8 +47,27 @@ body {
     transition: 0.2s;
 }
 
+.squares-white {
+    display: flex;
+    flex-direction: row;
+    border: 5px solid white;
+    height: 16px;
+    width: 16px;
+    background-color: white;
+    transition: 0.2s;
+}
+
+
 #resetbutton {
     padding: 10px;
     font-weight: bold;
     border-radius: 10px solid ;
+}
+
+#container {
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
