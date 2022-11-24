@@ -15,3 +15,7 @@ squares.forEach((squares) => {
     squares.classList.add('squares-black');
   });
 });
+
+function refreshPage() {
+  window.location.reload();
+}
