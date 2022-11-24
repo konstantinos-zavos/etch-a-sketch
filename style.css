@@ -28,7 +28,7 @@ body {
 .squares {
     display: flex;
     flex-direction: row;
-    border: 5px solid black;
+    border: 5px solid white;
     height: 16px;
     width: 16px;
 }
@@ -44,4 +44,5 @@ body {
     height: 16px;
     width: 16px;
     background-color: black;
+    transition: 0.2s;
 }
