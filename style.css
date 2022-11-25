@@ -22,6 +22,7 @@ body {
     width: 416px;
     border: 1px solid black;
     flex-wrap: wrap;
+    margin-right: 5px;
 
 }
 
