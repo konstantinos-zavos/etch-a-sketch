@@ -21,7 +21,7 @@ body {
     align-items: center;
     height: 417px;
     width: 416px;
-    border: 1px solid black;
+    border: 3px solid black;
     flex-wrap: wrap;
     margin-left: 5px;
 
@@ -69,11 +69,60 @@ body {
 #rainbow {
     padding: 10px;
     width: 150px;
-    font-weight: bold;
+    font-weight: bolder;
     background-color: #D6E4E5;
     color: black;
     border-radius: 25px;
+    -webkit-animation: rainbow 5s infinite; 
+    -ms-animation: rainbow 5s infinite;
+    animation: rainbow 5s infinite; 
 }
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+    20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+   0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Standard Syntax */
+@keyframes rainbow{
+    0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
 
 #grayscale {
     padding: 10px;
