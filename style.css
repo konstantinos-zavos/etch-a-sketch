@@ -8,7 +8,8 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 800px;
+    height: 800px;;
+    background-color: #EFF5F5;
 }
 
 
@@ -22,7 +23,7 @@ body {
     width: 416px;
     border: 1px solid black;
     flex-wrap: wrap;
-    margin-right: 5px;
+    margin-left: 5px;
 
 }
 
@@ -42,7 +43,7 @@ body {
     flex-direction: row;
     height: 26px;
     width: 26px;
-    background-color: rgb(17, 20, 216);
+    background-color: red;
     transition: 0.2s;
 }
 
@@ -60,18 +61,27 @@ body {
     padding: 10px;
     width: 150px;
     font-weight: bold;
+    background-color: #D6E4E5;
+    color: #EB6440;
+    border-radius: 25px;
 }
 
 #rainbow {
     padding: 10px;
     width: 150px;
     font-weight: bold;
+    background-color: #D6E4E5;
+    color: black;
+    border-radius: 25px;
 }
 
 #grayscale {
     padding: 10px;
     width: 150px;
     font-weight: bold;
+    background-color: #D6E4E5;
+    color: black;
+    border-radius: 25px;
 }
 
 
@@ -92,17 +102,38 @@ body {
     border: 1px solid black;
     height: 417px;
     width: 200px;
+    background-color: #497174;
+    color: #EFF5F5;
+    border-radius: 25px;
 }
 
 .title {
     margin: 10px;
     font-size: 25px;
     font-weight: bold;
+    text-shadow: 0 1px 0 #ccc,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
 }
 
+
 .information {
-    margin: 10px;
+    margin: 5px;
     text-align: center;
+    font-weight: bold;
+    text-shadow:  0 1px 0 #ccc,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
 }
 
 
