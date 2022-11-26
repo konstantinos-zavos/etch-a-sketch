@@ -49,9 +49,8 @@ body {
 .squares-white {
     display: flex;
     flex-direction: row;
-    border: 5px solid white;
-    height: 16px;
-    width: 16px;
+    height: 26px;
+    width: 26px;
     background-color: white;
     transition: 0.2s;
 }
