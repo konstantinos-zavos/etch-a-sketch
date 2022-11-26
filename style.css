@@ -29,9 +29,8 @@ body {
 .squares {
     display: flex;
     flex-direction: row;
-    border: 5px solid white;
-    height: 16px;
-    width: 16px;
+    height: 26px;
+    width: 26px;
 }
 
 .squares:hover{
@@ -41,9 +40,8 @@ body {
 .squares-black {
     display: flex;
     flex-direction: row;
-    border: 5px solid rgb(17, 20, 216);
-    height: 16px;
-    width: 16px;
+    height: 26px;
+    width: 26px;
     background-color: rgb(17, 20, 216);
     transition: 0.2s;
 }
@@ -107,3 +105,5 @@ body {
     margin: 10px;
     text-align: center;
 }
+
+
