@@ -90,7 +90,7 @@ function grayscale() {
   }
 
 function changeSize() {
-  prompt("How many squares:")
+  alert("This option is not currently working. Sorry for the inconvenience.")
 }
 
 
@@ -102,43 +102,9 @@ function changeSize() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-// RGB code - Might use it later
-
-
-
-// Another RBG code snippet
-
-
-// let colors = ['#ff0000', '#00ff00', '#0000ff'];
-// let random_color = colors[Math.floor(Math.random() * colors.length)];
-// document.getElementById('squares-black').style.color = random_color;
-
-// Skeftome na allaksw ton tropo pou allazo to xroma - px na min eine me div change, alla apla me 
-// me javascirpt na allazei to xroma apo aspro se mavro
-// meta na kanw to grayscale me kapoio function pou tha ginete activate me to button
-// kai meta to rgb pou exw 2 viable codes
-
-
-// LOIPON -- 
 // IDEA 1 - Gia na boresw na kanw osa div tetragona thelw mesa sto container
 // tha prepei na eine divs flexbox opou tha pianei olo to place pou borei na piasei to div tetragono
 // px ama grapsoume to value 1, tha piasei OLO to container to ena div pou tha ftiaksoume
 // kai episis ama eine 2 to idio ktlp ktlp.
 // OPote prepei me CSS FLEXBOX to div pou tha ftiaxnete na pianei olo to container
 // opote How to make a div fill the whole container in flexbox. 
-
-// IDEA 2
-// Na vrw tropo na allazei to targeted div css
-// Skeftome prwta na kanw auto to idea
