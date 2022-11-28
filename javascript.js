@@ -32,7 +32,7 @@ function refreshPage() {
 function original() {
 const squares = document.querySelectorAll(".squares");
 squares.forEach((squares) => {
-
+// squares.style.opacity = 1
   squares.addEventListener('mouseover', () => {
     squares.style.backgroundColor = 'black'
   });
@@ -52,7 +52,7 @@ original();
 function rainbow() {
   const squares = document.querySelectorAll(".squares");
   squares.forEach((squares) => {
-  
+  squares.style.opacity = 1
     squares.addEventListener('mouseover', () => {
       squares.style.backgroundColor = "#" + (Math.random() * 0xFFFFFF<<0).toString(16);
     });
@@ -73,12 +73,23 @@ function clearCanvas() {
 
 
 
-const randomBetween = (min, max) => min + Math.floor(Math.random() * (max - min + 1));
-const r = randomBetween(0, 255);
-const g = randomBetween(0, 255);
-const b = randomBetween(0, 255);
-const rgb = `rgb(${r},${g},${b})`;
 
+function grayscale() {
+  const squares = document.querySelectorAll(".squares");
+
+  squares.forEach((squares) => {
+    squares.style.opacity = 0.1
+    squares.addEventListener('mouseover', () => {
+      squares.style.backgroundColor = 'black'
+      squares.style.opacity = parseFloat(squares.style.opacity) + 0.1;
+    });
+  
+    squares.addEventListener('click', () => {
+      squares.style.backgroundColor = 'white'
+    });
+  
+  });
+  }
 
 
 
