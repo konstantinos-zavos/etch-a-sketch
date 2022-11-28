@@ -34,9 +34,6 @@ body {
     width: 26px;
 }
 
-.squares:hover{
-    background-color: black;
-}
 
 .squares-black {
     display: flex;

@@ -6,45 +6,105 @@ for ( i = 0; i < 256; i++) {
     container.appendChild(singleSquare);
 }
 
-const squares = document.querySelectorAll(".squares");
-squares.forEach((squares) => {
+// const squares = document.querySelectorAll(".squares");
+// squares.forEach((squares) => {
 
-  // and for each one we add a 'click' listener
-  squares.addEventListener('mouseover', () => {
-    squares.classList.remove('squares');
-    squares.classList.remove('squares-white')
-    squares.classList.add('squares-black');
-  });
+//   squares.addEventListener('mouseover', () => {
+//     squares.classList.remove('squares');
+//     squares.classList.remove('squares-white')
+//     squares.classList.add('squares-black');
+//   });
 
-  squares.addEventListener('click', () => {
-    squares.classList.remove('squares');
-    squares.classList.add('squares-white');
-  });
+//   squares.addEventListener('click', () => {
+//     squares.classList.remove('squares');
+//     squares.classList.add('squares-white');
+//   });
 
-});
+// });
 
 function refreshPage() {
   window.location.reload();
 }
 
 
+// Fresh code to test stuff
+
+function original() {
+const squares = document.querySelectorAll(".squares");
+squares.forEach((squares) => {
+
+  squares.addEventListener('mouseover', () => {
+    squares.style.backgroundColor = 'black'
+  });
+
+  squares.addEventListener('click', () => {
+    squares.style.backgroundColor = 'white'
+  });
+
+});
+}
+
+original();
+
+
+// Test functino to make divs yellow combined with function on html button
+
+function yellow() {
+  const squares = document.querySelectorAll(".squares");
+  squares.forEach((squares) => {
+  
+    squares.addEventListener('mouseover', () => {
+      squares.style.backgroundColor = 'yellow'
+    });
+  
+    squares.addEventListener('click', () => {
+      squares.style.backgroundColor = 'white'
+    });
+  
+  });
+  }
+
+function clearCanvas() {
+  const squares = document.querySelectorAll(".squares");
+  squares.forEach((squares) =>{
+  squares.style.backgroundColor = 'white'
+})
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // RGB code - Might use it later
 
-// const randomBetween = (min, max) => min + Math.floor(Math.random() * (max - min + 1));
-// const r = randomBetween(0, 255);
-// const g = randomBetween(0, 255);
-// const b = randomBetween(0, 255);
-// const rgb = `rgb(${r},${g},${b})`;
-
-// function rainbow() {
-// const rainbow = document.getElementById('rainbow');
-// rainbow.addEventListener('click', () => {
-//     const element = document.querySelector('.squares-black');
-//     element.style.backgroundColor = rgb;
-// })
-// }
+const randomBetween = (min, max) => min + Math.floor(Math.random() * (max - min + 1));
+const r = randomBetween(0, 255);
+const g = randomBetween(0, 255);
+const b = randomBetween(0, 255);
+const rgb = `rgb(${r},${g},${b})`;
 
 // Another RBG code snippet
 
@@ -57,3 +117,16 @@ function refreshPage() {
 // me javascirpt na allazei to xroma apo aspro se mavro
 // meta na kanw to grayscale me kapoio function pou tha ginete activate me to button
 // kai meta to rgb pou exw 2 viable codes
+
+
+// LOIPON -- 
+// IDEA 1 - Gia na boresw na kanw osa div tetragona thelw mesa sto container
+// tha prepei na eine divs flexbox opou tha pianei olo to place pou borei na piasei to div tetragono
+// px ama grapsoume to value 1, tha piasei OLO to container to ena div pou tha ftiaksoume
+// kai episis ama eine 2 to idio ktlp ktlp.
+// OPote prepei me CSS FLEXBOX to div pou tha ftiaxnete na pianei olo to container
+// opote How to make a div fill the whole container in flexbox. 
+
+// IDEA 2
+// Na vrw tropo na allazei to targeted div css
+// Skeftome prwta na kanw auto to idea
