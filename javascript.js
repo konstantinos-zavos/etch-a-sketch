@@ -27,12 +27,10 @@ function refreshPage() {
 }
 
 
-// Fresh code to test stuff
-
 function original() {
 const squares = document.querySelectorAll(".squares");
 squares.forEach((squares) => {
-// squares.style.opacity = 1
+squares.style.opacity = 1
   squares.addEventListener('mouseover', () => {
     squares.style.backgroundColor = 'black'
   });
@@ -46,8 +44,6 @@ squares.forEach((squares) => {
 
 original();
 
-
-// Test functino to make divs yellow combined with function on html button
 
 function rainbow() {
   const squares = document.querySelectorAll(".squares");
@@ -73,6 +69,8 @@ function clearCanvas() {
 
 
 
+
+// grayscale problem = It also changes the existing opacity of the divs so it's buggy
 
 function grayscale() {
   const squares = document.querySelectorAll(".squares");
