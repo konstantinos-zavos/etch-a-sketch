@@ -196,3 +196,11 @@ body {
  }
 
  
+ #change-size {
+  padding: 10px;
+  width: 150px;
+  font-weight: bold;
+  background-color: #D6E4E5;
+  color: black;
+  border-radius: 25px;
+ }

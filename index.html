@@ -9,12 +9,12 @@
     <script src="./javascript.js" defer></script>
     <title>Etch-a-Sketch</title>
 </head>
-
 <body>
     <div id="actions-box">
         <div class="title">Etch-a-Sketch</div>
         <div class="information">Drag your mouse across the canvas to paint. <br>
         You can use left click to revert blocks back to white.</div>
+        <button id="change-size" onclick="changeSize()">Change size</button>
         <button id="grayscale" type="submit" onclick="original()">Black color</button>
         <button id="grayscale" type="submit" onclick="grayscale()">Grayscale mode</button>
         <button id="rainbow" type="submit" onclick="rainbow()"">Rainbow mode</button>

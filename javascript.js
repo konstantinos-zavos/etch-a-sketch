@@ -89,7 +89,9 @@ function grayscale() {
   });
   }
 
-
+function changeSize() {
+  prompt("How many squares:")
+}
 
 
 
