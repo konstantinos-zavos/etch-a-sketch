@@ -49,12 +49,12 @@ original();
 
 // Test functino to make divs yellow combined with function on html button
 
-function yellow() {
+function rainbow() {
   const squares = document.querySelectorAll(".squares");
   squares.forEach((squares) => {
   
     squares.addEventListener('mouseover', () => {
-      squares.style.backgroundColor = 'yellow'
+      squares.style.backgroundColor = "#" + (Math.random() * 0xFFFFFF<<0).toString(16);
     });
   
     squares.addEventListener('click', () => {
@@ -73,6 +73,11 @@ function clearCanvas() {
 
 
 
+const randomBetween = (min, max) => min + Math.floor(Math.random() * (max - min + 1));
+const r = randomBetween(0, 255);
+const g = randomBetween(0, 255);
+const b = randomBetween(0, 255);
+const rgb = `rgb(${r},${g},${b})`;
 
 
 
@@ -100,11 +105,7 @@ function clearCanvas() {
 
 // RGB code - Might use it later
 
-const randomBetween = (min, max) => min + Math.floor(Math.random() * (max - min + 1));
-const r = randomBetween(0, 255);
-const g = randomBetween(0, 255);
-const b = randomBetween(0, 255);
-const rgb = `rgb(${r},${g},${b})`;
+
 
 // Another RBG code snippet
 
